@@ -1,6 +1,4 @@
 print("vvce")
 print("Hello there ")
 print("greetings")
-print("hellloooo")
-print("vgigv")
-print("hguyggvih")
+

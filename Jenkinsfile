@@ -15,12 +15,14 @@ pipeline {
     }
 }
 
-       stage('Build & Execute Script') {
+  
+stage('Build & Execute Script') {
     steps {
-        echo 'Running first.py...'
-        bat '"C:\\Users\\STUDENT\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" first.py'
+        echo 'Running test.py...'
+        bat '"C:\\Users\\STUDENT\\AppData\\Local\\Programs\\Python\\Python313\\python.exe" test.py'
     }
 }
+
 
         stage('Code Stability Check') {
             steps {

@@ -8,6 +8,12 @@ pipeline {
                 checkout scm
             }
         }
+        stage('Check Python Files') {
+    steps {
+        echo 'Listing Python files...'
+        bat 'dir /s /b *.py'
+    }
+}
 
        stage('Build & Execute Script') {
     steps {
